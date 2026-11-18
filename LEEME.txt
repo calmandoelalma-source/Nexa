@@ -1,0 +1,15 @@
+NEXA KEYBOARD — PAQUETE LIMPIO PARA COMPILAR APK
+
+Este paquete conserva el proyecto Android existente. No reconstruye la app desde cero.
+
+CONTENIDO
+- app/: aplicación Android, servicio InputMethodService y teclado NEXA.
+- .github/workflows/android-build.yml: compilación automática de la APK en GitHub Actions.
+- build.gradle.kts / settings.gradle.kts: configuración Gradle.
+
+IMPORTANTE
+La APK todavía no está compilada. GitHub Actions la generará cuando el proyecto esté
+subido al repositorio y se ejecute el flujo NEXA Keyboard APK.
+
+No cambies nombres ni muevas carpetas. La carpeta .github debe quedar en la raíz del
+repositorio, al mismo nivel que app, settings.gradle.kts y build.gradle.kts.

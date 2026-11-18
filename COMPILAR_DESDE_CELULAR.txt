@@ -1,0 +1,19 @@
+COMPILAR NEXA DESDE EL CELULAR — PROCESO NUEVO
+
+1. Crea un repositorio NUEVO en GitHub llamado nexa-keyboard-apk.
+2. En el repositorio, usa Add file > Upload files.
+3. Descomprime este ZIP primero. Sube TODO lo que está dentro de la carpeta
+   NEXA_Keyboard_CloudBuild; no subas la carpeta contenedora como un único archivo ZIP.
+4. Confirma que en la raíz de GitHub se vean app, .github, build.gradle.kts,
+   settings.gradle.kts y gradle.properties.
+5. Pulsa Commit changes.
+6. Abre la pestaña Actions. Debe aparecer “NEXA Keyboard APK”.
+7. Entra al flujo y pulsa Run workflow si no empezó automáticamente.
+8. Cuando termine con marca verde, abre la ejecución y descarga el artefacto
+   NEXA-Keyboard-APK. Dentro está app-debug.apk.
+9. Descarga app-debug.apk en Android e instálalo. Si Android lo solicita, permite
+   instalar aplicaciones desde el navegador/gestor de archivos que usaste.
+10. Abre NEXA Keyboard, pulsa Activar y después Elegir teclado.
+
+Si la compilación falla, abre la ejecución roja y comparte una captura del primer
+mensaje de error. No repitas la carga del proyecto.
